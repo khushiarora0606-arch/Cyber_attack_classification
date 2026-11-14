@@ -1,0 +1,68 @@
+{
+  "files": [
+    {
+      "name": "Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv",
+      "rows": 225745
+    },
+    {
+      "name": "Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv",
+      "rows": 286467
+    },
+    {
+      "name": "Friday-WorkingHours-Morning.pcap_ISCX.csv",
+      "rows": 191033
+    },
+    {
+      "name": "Monday-WorkingHours.pcap_ISCX.csv",
+      "rows": 529918
+    },
+    {
+      "name": "Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv",
+      "rows": 288602
+    },
+    {
+      "name": "Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv",
+      "rows": 170366
+    },
+    {
+      "name": "Tuesday-WorkingHours.pcap_ISCX.csv",
+      "rows": 445909
+    },
+    {
+      "name": "Wednesday-workingHours.pcap_ISCX.csv",
+      "rows": 692703
+    }
+  ],
+  "rows_read": 2830743,
+  "rows_without_label": 0,
+  "inf_replaced": 4376,
+  "duplicates_removed_in_chunks": 212899,
+  "duplicates_removed_global": 8648,
+  "class_counts_after_dedup_before_cap": {
+    "DDoS": 128016,
+    "BENIGN": 2172317,
+    "PortScan": 109544,
+    "Bot": 1953,
+    "Other": 47,
+    "Web Attack": 2143,
+    "Brute Force": 9375,
+    "DoS": 194449
+  },
+  "max_per_class": 20000,
+  "rows_final": 93295,
+  "n_features": 77,
+  "class_counts_final": {
+    "BENIGN": 20000,
+    "DDoS": 20000,
+    "DoS": 20000,
+    "PortScan": 20000,
+    "Brute Force": 9152,
+    "Web Attack": 2143,
+    "Bot": 1953,
+    "Other": 47
+  },
+  "missing_values_per_column": {
+    "Flow Bytes/s": 45,
+    "Flow Packets/s": 45
+  }
+}

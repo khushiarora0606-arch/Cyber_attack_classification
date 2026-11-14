@@ -1,0 +1,47 @@
+{
+  "model_version": "1.0.0+20261114112637",
+  "best_model": "Decision Tree",
+  "trained_at": "2026-11-14T11:26:37",
+  "classes": [
+    "BENIGN",
+    "DDoS",
+    "DoS",
+    "PortScan",
+    "Bot",
+    "Brute Force",
+    "Web Attack",
+    "Other"
+  ],
+  "split_sizes": {
+    "train": 65306,
+    "validation": 13994,
+    "test": 13995
+  },
+  "n_input_columns": 77,
+  "n_model_features": 79,
+  "class_distribution": {
+    "BENIGN": 20000,
+    "DDoS": 20000,
+    "DoS": 20000,
+    "PortScan": 20000,
+    "Brute Force": 9152,
+    "Web Attack": 2143,
+    "Bot": 1953,
+    "Other": 47
+  },
+  "confidence_type": "probability",
+  "selection_metric": "validation macro-F1",
+  "best_params": {
+    "max_depth": 20,
+    "min_samples_leaf": 1
+  },
+  "test": {
+    "accuracy": 0.9969274740978921,
+    "precision_macro": 0.9953135207460556,
+    "recall_macro": 0.9944631031582225,
+    "f1_macro": 0.9948812466590742,
+    "precision_weighted": 0.9969300214984,
+    "recall_weighted": 0.9969274740978921,
+    "f1_weighted": 0.9969274488408989
+  }
+}
