@@ -1,0 +1,18 @@
+stages:
+  preprocess:
+    cmd: python -m src.data_preprocessing --max-per-class 20000
+    deps:
+      - data/raw
+      - src/data_preprocessing.py
+    outs:
+      - data/processed/cicids2017_clean.csv.gz
+  train:
+    cmd: python -m src.model_training
+    deps:
+      - data/processed/cicids2017_clean.csv.gz
+      - src/model_training.py
+    outs:
+      - models/best_model.joblib
+    metrics:
+      - reports/metrics/evaluation_results.json:
+          cache: false

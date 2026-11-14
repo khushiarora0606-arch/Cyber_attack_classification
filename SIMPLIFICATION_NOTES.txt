@@ -1,0 +1,6 @@
+app.py has been simplified into a more compact, notebook-like Python style.
+The parsed Python logic is unchanged; only source formatting and comments were removed.
+All existing project modules, model logic, dashboard pages, API, tests, and configuration remain unchanged.
+
+Run the dashboard from this folder with:
+    streamlit run app.py
